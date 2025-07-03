@@ -1,0 +1,11 @@
+# Ignore environment files
+.env
+.env.*
+
+# Ignore local scripts or configuration not meant for production
+docker-up.sh
+docker-down.sh
+
+# Editor/OS trash
+.DS_Store
+Thumbs.db

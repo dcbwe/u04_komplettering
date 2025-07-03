@@ -1,0 +1,38 @@
+# OS junk
+*.log
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+auth.json
+
+# PHP / Laravel build artifacts
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+
+# IDE/editor configs
+/.idea/
+/.vscode/
+/.fleet/
+/.zed/
+/.nova/
+
+# Vendor packages
+/vendor
+
+# Node/npm output
+/node_modules
+/public/hot
+/public/build
+/public/storage
+
+# Laravel generated keys & storage
+/storage/*.key
+/storage/pail
+
+# Homestead
+Homestead.json
+Homestead.yaml
