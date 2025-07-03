@@ -70,8 +70,7 @@ class LocalListService {
         array_walk($fetched, fn($data, $key) => Cache::put($key, $data, 86400));
     }
     
-    protected function fetchAndRestoreTypes(array $notCached): array
-    {
+    protected function fetchAndRestoreTypes(array $notCached): array {
         return tap(
             $this->combineWithKeys(
                 $notCached,
